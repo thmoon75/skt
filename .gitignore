@@ -1,0 +1,118 @@
+# -------------------------
+# Python 기본
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장
+*.so
+
+# 분산 환경
+*.dSYM/
+
+# -------------------------
+# Virtual Environment (venv)
+# -------------------------
+# 표준 가상환경 폴더들
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# -------------------------
+# 패키지 / 빌드 / 배포 파일
+# -------------------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# 테스트 / 커버리지
+# -------------------------
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# -------------------------
+# Jupyter Notebook
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Django / Flask 등 Web 프레임워크
+# -------------------------
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask instance 폴더
+instance/
+.webassets-cache
+
+# -------------------------
+# Scrapy
+# -------------------------
+.scrapy
+
+# -------------------------
+# Sphinx 문서
+# -------------------------
+docs/_build/
+
+# -------------------------
+# PyBuilder
+# -------------------------
+target/
+
+# -------------------------
+# IDE 설정 파일
+# -------------------------
+
+# VSCode
+.vscode/
+
+# JetBrains (PyCharm 등)
+.idea/
+*.iml
+
+# Eclipse/PyDev
+.project
+.pydevproject
+
+# -------------------------
+# 시스템 파일
+# -------------------------
+.DS_Store
+Thumbs.db
